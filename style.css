@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+    .primary-btn{
+        background-color: #111B47;
+        padding: 8px 40px;
+        color: white;
+    }
+    .secondary-btn{
+        background-color: #ffffff;
+        border: 2px solid #505F98;
+        padding: 8px 40px;
+        color: #505F98;
+    }
+}
